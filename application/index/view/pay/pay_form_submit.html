@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>支付跳转中...</title>
+</head>
+<body style="display: none;">
+    <form name="s_form" method="post" action="{$postUrl}">
+        <?php
+            foreach ($postData as $key=>$val) {
+                echo '<input type="hidden" name="' . $key . '" value="' . $val . '">';
+            }
+        ?>
+    </form>
+    <script type="text/javascript">
+        document.forms['s_form'].submit();
+    </script>
+</body>
+</html>

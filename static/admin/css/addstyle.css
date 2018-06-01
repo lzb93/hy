@@ -1,0 +1,58 @@
+/**
+ * lukui
+ * 2017-02-10
+ */
+
+.color_white{
+	color: #fff;
+}
+.color_red{
+	color: red;
+}
+.color_green{
+	color: green;
+}
+.ordertable{
+	text-align: center;
+}
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+.index_top_user{
+	margin: 10px
+}
+.mar-10{
+	margin: 10px 0
+}
+
+.newalert{
+	width: 300px
+}
+.newalert-footer {
+	padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+.order-boo {
+	float: right;
+	width: 58%;
+	
+	
+}
+.order-boo h1{
+	font-size: 18px;
+	margin:10px 0 0 10px;
+}
+.noorder{
+	font-size: 40px;
+	text-align: center;
+	margin: 10% 0;
+}
+.userpic{
+	width: 40px
+}
